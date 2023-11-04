@@ -1,9 +1,9 @@
-// document.write("3.1 ")
-// document.write("2X-3Y+Z=0 ")
-// var y=Number(prompt("input Y"))
-// var z=Number(prompt("input z"))
-// x=(3*y-z)/2
-// document.write("x=",x)
+document.write("3.1 ");
+document.write("2X-3Y+Z=0 ");
+var y = Number(prompt("input Y"));
+var z = Number(prompt("input z"));
+var x = (3 * y - z) / 2;
+document.write("x=", x);
 
 // document.write("3.2")
 // var a=Number(prompt("input a "))
@@ -26,10 +26,10 @@
 // document.write(x1,x2)
 
 // document.write("2.1")
-// var name=prompt("input your name")
-// var surname=prompt("input your surname")
 // var age=Number(prompt("input your age "))
 // if(age>=18){
+//     var name=prompt("input your name")
+//     var surname=prompt("input your surname")
 //     document.write("Hello",`${name},${surname}`)
 // }
 // else{
@@ -85,7 +85,7 @@
 // var age=Number(prompt("input your age"))
 // var mail=prompt("input your mail")
 // var gender=prompt("input your gender")
-// var text=name+surname+age+mail+gender
+// var text=name+ " " + surname + " " + age + " " + mail + " " + gender
 // document.write(text)
 
 // document.write("1.3")
